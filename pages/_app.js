@@ -7,7 +7,7 @@ import { Typography } from '@material-ui/core';
 function MyApp({ Component, pageProps }) {
     return (
     <div>
-      <Cabecalho></Cabecalho>
+      <Cabecalho title="App Demo"></Cabecalho>
       <Component {...pageProps} />
     </div>
   )
