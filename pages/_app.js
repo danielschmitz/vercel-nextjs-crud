@@ -8,9 +8,7 @@ function MyApp({ Component, pageProps }) {
     return (
     <div>
       <Cabecalho></Cabecalho>
-      <Typography paragraph>
-        <Component {...pageProps} />
-      </Typography>
+      <Component {...pageProps} />
     </div>
   )
 }
