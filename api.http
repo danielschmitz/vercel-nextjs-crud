@@ -1,0 +1,8 @@
+
+@host = http://localhost:3002
+
+GET {{host}}/api/categories
+
+###
+
+GET {{host}}/api/categories/2
